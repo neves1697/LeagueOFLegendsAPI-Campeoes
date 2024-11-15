@@ -2,6 +2,7 @@
 using System;
 using System.Net.Http;
 using System.Net.Http.Json;
+using System.Security.Cryptography.X509Certificates;
 using System.Threading.Tasks;
 namespace LeagueOFLegendsAPI.Control
 {
@@ -79,6 +80,32 @@ namespace LeagueOFLegendsAPI.Control
                 }
             }
         }
+
+        public async Task OrdenarCampeoes()
+        {
+            DadosCampeoes campeoes = await client.GetFromJsonAsync<DadosCampeoes>(api);
+
+            if (campeoes?.Data != null)
+            {
+                // Converte os campeões para uma lista e ordena por nome
+                var listaOrdenada = campeoes.Data.Values
+                    .OrderBy(c => c.Name) // Ordenação por Nome
+                    .ToList();
+
+                foreach (var item in listaOrdenada)
+                {
+                    Console.WriteLine($"Key: {item.Id}");
+                    Console.WriteLine($"Nome: {item.Name}");
+                    Console.WriteLine($"Título: {item.Title}");
+                    Console.WriteLine(new string('-', 40));
+                }
+            }
+            else
+            {
+                Console.WriteLine("Não foi possível obter os dados dos campeões.");
+            }
+        }
+
 
     }
 }

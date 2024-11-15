@@ -1,12 +1,16 @@
 ﻿using System;
 using System.Threading.Tasks;
-using LeagueOFLegendsAPI;
-
+using LeagueOFLegendsAPI.Control;
+using LeagueOFLegendsAPI.View;
 class Program
 {
     static async Task Main(string[] args)
     {
         LeagueAPI leagueAPI = new LeagueAPI();
-        await leagueAPI.LerCampeoes();
+        ExibirCampeoes exibir = new ExibirCampeoes();
+        //await leagueAPI.LerCampeoes();
+        //exibir.ExibicacaoCampeoes();
+        //await leagueAPI.ExibirCampeoes();
+        await leagueAPI.FiltrarCampeoes();
     }
 }

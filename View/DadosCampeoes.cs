@@ -1,6 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using LeagueOFLegendsAPI.Model;
+using System.Collections.Generic;
 
-namespace LeagueOFLegendsAPI
+namespace LeagueOFLegendsAPI.View
 {
     public class DadosCampeoes
     {

@@ -1,0 +1,14 @@
+# Arquivos do Visual Studio
+.vs/
+*.suo
+*.v2
+
+# Pastas de build
+bin/
+obj/
+
+# Arquivos temporários
+*.cache
+*.pdb
+*.exe
+*.dll

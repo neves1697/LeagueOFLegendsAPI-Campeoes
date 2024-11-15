@@ -19,3 +19,4 @@ C:\Projetos\LeagueOFLegendsAPI\obj\Debug\net8.0\refint\LeagueOFLegendsAPI.dll
 C:\Projetos\LeagueOFLegendsAPI\obj\Debug\net8.0\LeagueOFLegendsAPI.pdb
 C:\Projetos\LeagueOFLegendsAPI\obj\Debug\net8.0\LeagueOFLegendsAPI.genruntimeconfig.cache
 C:\Projetos\LeagueOFLegendsAPI\obj\Debug\net8.0\ref\LeagueOFLegendsAPI.dll
+C:\Projetos\LeagueOFLegendsAPI\obj\Debug\net8.0\LeagueOFLegendsAPI.sourcelink.json

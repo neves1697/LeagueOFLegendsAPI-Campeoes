@@ -25,7 +25,7 @@ namespace LeagueOFLegendsAPI.Control
                     {
                         Console.WriteLine($"Key: {item.Id}");
                         Console.WriteLine($"Nome: {item.Name}");
-                        Console.WriteLine($"Título: {item.Title}");
+                        Console.WriteLine($"Título: {item.Title.ToUpper()}");
                         Console.WriteLine($"História: {item.Historia}");
                         Console.WriteLine($"Vida: {item.Stats.Hp} ");
                         Console.WriteLine($"Armadura: {item.Stats.Armor} ");
@@ -81,7 +81,7 @@ namespace LeagueOFLegendsAPI.Control
             }
         }
 
-        public async Task OrdenarCampeoes()
+        public async Task OrdenarCampeoesAscendente()
         {
             DadosCampeoes campeoes = await client.GetFromJsonAsync<DadosCampeoes>(api);
 
@@ -96,7 +96,7 @@ namespace LeagueOFLegendsAPI.Control
                 {
                     Console.WriteLine($"Key: {item.Id}");
                     Console.WriteLine($"Nome: {item.Name}");
-                    Console.WriteLine($"Título: {item.Title}");
+                    Console.WriteLine($"Título: {item.Title.ToUpper()}");
                     Console.WriteLine(new string('-', 40));
                 }
             }
@@ -106,7 +106,23 @@ namespace LeagueOFLegendsAPI.Control
             }
         }
 
+        public async Task OrdenarCampeoesDescendente()
+        {
+            DadosCampeoes campeoes = await client.GetFromJsonAsync<DadosCampeoes>(api);
 
+            if (campeoes?.Data != null)
+            {
+                var listaDescendente = campeoes.Data.Values.OrderByDescending(c => c.Name).ToList();
+
+                foreach (var lista in listaDescendente)
+                {
+                    Console.WriteLine($"Key: {lista.Id}");
+                    Console.WriteLine($"Nome: {lista.Name}");
+                    Console.WriteLine($"Título: {lista.Title.ToUpper()}");
+                    Console.WriteLine(new string('-', 40));
+                }
+            }
+        }
     }
 }
 

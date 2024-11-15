@@ -12,6 +12,7 @@ class Program
         //exibir.ExibicacaoCampeoes();
         //await leagueAPI.ExibirCampeoes();
         //await leagueAPI.FiltrarCampeoes();
-        await leagueAPI.OrdenarCampeoes();
+        //await leagueAPI.OrdenarCampeoesAscendente();
+        await leagueAPI.OrdenarCampeoesDescendente();
     }
 }

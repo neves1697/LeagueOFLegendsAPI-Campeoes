@@ -4,7 +4,7 @@ using System.Net.Http;
 using System.Net.Http.Json;
 using System.Security.Cryptography.X509Certificates;
 using System.Threading.Tasks;
-namespace LeagueOFLegendsAPI.Control
+namespace LeagueOFLegendsAPI.Controller
 {
     public class LeagueAPI
     {
@@ -85,7 +85,7 @@ namespace LeagueOFLegendsAPI.Control
         {
             DadosCampeoes campeoes = await client.GetFromJsonAsync<DadosCampeoes>(api);
 
-            if (campeoes?.Data != null)
+            if (campeoes?.Data is not null)
             {
                 // Converte os campeões para uma lista e ordena por nome
                 var listaOrdenada = campeoes.Data.Values
@@ -110,7 +110,7 @@ namespace LeagueOFLegendsAPI.Control
         {
             DadosCampeoes campeoes = await client.GetFromJsonAsync<DadosCampeoes>(api);
 
-            if (campeoes?.Data != null)
+            if (campeoes?.Data is not null)
             {
                 var listaDescendente = campeoes.Data.Values.OrderByDescending(c => c.Name).ToList();
 

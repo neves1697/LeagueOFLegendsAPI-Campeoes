@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4Uqjzq1S1Nk=",
+  "dgSpecHash": "mWUt1J0ScpE=",
   "success": true,
-  "projectFilePath": "C:\\Projetos\\LeagueOFLegendsAPI\\LeagueOFLegendsAPI.csproj",
+  "projectFilePath": "C:\\Projetos\\LeagueOFLegendsAPI-Campeoes\\LeagueOFLegendsAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ander\\.nuget\\packages\\system.io.pipelines\\9.0.0\\system.io.pipelines.9.0.0.nupkg.sha512",
     "C:\\Users\\ander\\.nuget\\packages\\system.net.http.json\\9.0.0\\system.net.http.json.9.0.0.nupkg.sha512",

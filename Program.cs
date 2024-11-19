@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Threading.Tasks;
-using LeagueOFLegendsAPI.Control;
+using LeagueOFLegendsAPI.Controller;
 using LeagueOFLegendsAPI.View;
 class Program
 {

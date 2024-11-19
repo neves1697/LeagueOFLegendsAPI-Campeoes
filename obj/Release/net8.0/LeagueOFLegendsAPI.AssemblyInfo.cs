@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LeagueOFLegendsAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6eb46f42d1e120bcadea2efa862010f651db85a6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef6f06aa0eaeb446ddaceb85b76257ced003d95f")]
 [assembly: System.Reflection.AssemblyProductAttribute("LeagueOFLegendsAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LeagueOFLegendsAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

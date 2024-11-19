@@ -1,4 +1,4 @@
-﻿using LeagueOFLegendsAPI.Control;
+﻿using LeagueOFLegendsAPI.Controller;
 using System;
 using System.Collections.Generic;
 using System.Linq;

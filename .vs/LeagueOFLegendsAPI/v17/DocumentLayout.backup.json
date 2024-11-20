@@ -7,14 +7,6 @@
       "RelativeMoniker": "D:0:0:{68853812-83E7-4F62-9FAB-DB2B664C0D03}|LeagueOFLegendsAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{68853812-83E7-4F62-9FAB-DB2B664C0D03}|LeagueOFLegendsAPI.csproj|c:\\projetos\\leagueoflegendsapi-campeoes\\controller\\teste2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68853812-83E7-4F62-9FAB-DB2B664C0D03}|LeagueOFLegendsAPI.csproj|solutionrelative:controller\\teste2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{68853812-83E7-4F62-9FAB-DB2B664C0D03}|LeagueOFLegendsAPI.csproj|c:\\projetos\\leagueoflegendsapi-campeoes\\controller\\teste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68853812-83E7-4F62-9FAB-DB2B664C0D03}|LeagueOFLegendsAPI.csproj|solutionrelative:controller\\teste.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{68853812-83E7-4F62-9FAB-DB2B664C0D03}|LeagueOFLegendsAPI.csproj|c:\\projetos\\leagueoflegendsapi-campeoes\\controller\\leagueapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{68853812-83E7-4F62-9FAB-DB2B664C0D03}|LeagueOFLegendsAPI.csproj|solutionrelative:controller\\leagueapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -52,7 +44,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Projetos\\LeagueOFLegendsAPI-Campeoes\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-14T02:00:02.03Z",
               "EditorCaption": ""
@@ -66,45 +58,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Teste2.cs",
-              "DocumentMoniker": "C:\\Projetos\\LeagueOFLegendsAPI-Campeoes\\Controller\\Teste2.cs",
-              "RelativeDocumentMoniker": "Controller\\Teste2.cs",
-              "ToolTip": "C:\\Projetos\\LeagueOFLegendsAPI-Campeoes\\Controller\\Teste2.cs",
-              "RelativeToolTip": "Controller\\Teste2.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T00:01:09.718Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Teste.cs",
-              "DocumentMoniker": "C:\\Projetos\\LeagueOFLegendsAPI-Campeoes\\Controller\\Teste.cs",
-              "RelativeDocumentMoniker": "Controller\\Teste.cs",
-              "ToolTip": "C:\\Projetos\\LeagueOFLegendsAPI-Campeoes\\Controller\\Teste.cs",
-              "RelativeToolTip": "Controller\\Teste.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T23:50:41.278Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "LeagueAPI.cs",
               "DocumentMoniker": "C:\\Projetos\\LeagueOFLegendsAPI-Campeoes\\Controller\\LeagueAPI.cs",
               "RelativeDocumentMoniker": "Controller\\LeagueAPI.cs",
               "ToolTip": "C:\\Projetos\\LeagueOFLegendsAPI-Campeoes\\Controller\\LeagueAPI.cs",
               "RelativeToolTip": "Controller\\LeagueAPI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAIwG4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-16T16:25:48.1Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "Campeoes.cs",
               "DocumentMoniker": "C:\\Projetos\\LeagueOFLegendsAPI-Campeoes\\Model\\Campeoes.cs",
               "RelativeDocumentMoniker": "Model\\Campeoes.cs",
@@ -112,12 +78,11 @@
               "RelativeToolTip": "Model\\Campeoes.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T02:47:58.119Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T02:47:58.119Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "DadosCampeoes.cs",
               "DocumentMoniker": "C:\\Projetos\\LeagueOFLegendsAPI-Campeoes\\View\\DadosCampeoes.cs",
               "RelativeDocumentMoniker": "View\\DadosCampeoes.cs",
@@ -125,12 +90,11 @@
               "RelativeToolTip": "View\\DadosCampeoes.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T02:47:51.576Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T02:47:51.576Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "PropriedadesCampeoes.cs",
               "DocumentMoniker": "C:\\Projetos\\LeagueOFLegendsAPI-Campeoes\\Model\\PropriedadesCampeoes.cs",
               "RelativeDocumentMoniker": "Model\\PropriedadesCampeoes.cs",
@@ -142,7 +106,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "ExibirCampeoes.cs",
               "DocumentMoniker": "C:\\Projetos\\LeagueOFLegendsAPI-Campeoes\\View\\ExibirCampeoes.cs",
               "RelativeDocumentMoniker": "View\\ExibirCampeoes.cs",
@@ -150,8 +114,7 @@
               "RelativeToolTip": "View\\ExibirCampeoes.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T18:17:33.248Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-15T18:17:33.248Z"
             }
           ]
         }

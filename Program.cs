@@ -13,6 +13,10 @@ class Program
         //await leagueAPI.ExibirCampeoes();
         //await leagueAPI.FiltrarCampeoes();
         //await leagueAPI.OrdenarCampeoesAscendente();
-        await leagueAPI.OrdenarCampeoesDescendente();
+        //await leagueAPI.OrdenarCampeoesDescendente();
+        Console.WriteLine("Digite o id");
+        int id = Convert.ToInt32(Console.ReadLine());
+        //int id = 56;
+        await leagueAPI.FiltrarCampeoesPorID(id);
     }
 }

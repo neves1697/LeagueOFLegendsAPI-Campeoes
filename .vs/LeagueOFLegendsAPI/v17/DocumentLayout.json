@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Projetos\\LeagueOFLegendsAPI-Campeoes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{68853812-83E7-4F62-9FAB-DB2B664C0D03}|LeagueOFLegendsAPI.csproj|c:\\projetos\\leagueoflegendsapi-campeoes\\controller\\leagueapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{68853812-83E7-4F62-9FAB-DB2B664C0D03}|LeagueOFLegendsAPI.csproj|solutionrelative:controller\\leagueapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{68853812-83E7-4F62-9FAB-DB2B664C0D03}|LeagueOFLegendsAPI.csproj|c:\\projetos\\leagueoflegendsapi-campeoes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{68853812-83E7-4F62-9FAB-DB2B664C0D03}|LeagueOFLegendsAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68853812-83E7-4F62-9FAB-DB2B664C0D03}|LeagueOFLegendsAPI.csproj|c:\\projetos\\leagueoflegendsapi-campeoes\\controller\\leagueapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68853812-83E7-4F62-9FAB-DB2B664C0D03}|LeagueOFLegendsAPI.csproj|solutionrelative:controller\\leagueapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{68853812-83E7-4F62-9FAB-DB2B664C0D03}|LeagueOFLegendsAPI.csproj|c:\\projetos\\leagueoflegendsapi-campeoes\\view\\exibircampeoes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,13 +38,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Projetos\\LeagueOFLegendsAPI-Campeoes\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Projetos\\LeagueOFLegendsAPI-Campeoes\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-14T02:00:02.03Z",
               "EditorCaption": ""
@@ -57,13 +57,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "LeagueAPI.cs",
               "DocumentMoniker": "C:\\Projetos\\LeagueOFLegendsAPI-Campeoes\\Controller\\LeagueAPI.cs",
               "RelativeDocumentMoniker": "Controller\\LeagueAPI.cs",
               "ToolTip": "C:\\Projetos\\LeagueOFLegendsAPI-Campeoes\\Controller\\LeagueAPI.cs",
               "RelativeToolTip": "Controller\\LeagueAPI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAIwG4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-16T16:25:48.1Z",
               "EditorCaption": ""
@@ -78,8 +78,7 @@
               "RelativeToolTip": "Model\\Campeoes.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T02:47:58.119Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T02:47:58.119Z"
             },
             {
               "$type": "Document",
@@ -91,8 +90,7 @@
               "RelativeToolTip": "View\\DadosCampeoes.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T02:47:51.576Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-14T02:47:51.576Z"
             },
             {
               "$type": "Document",
@@ -116,8 +114,7 @@
               "RelativeToolTip": "View\\ExibirCampeoes.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T18:17:33.248Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-15T18:17:33.248Z"
             }
           ]
         }

@@ -2,7 +2,6 @@
 using System;
 using System.Net.Http;
 using System.Net.Http.Json;
-using System.Security.Cryptography.X509Certificates;
 using System.Threading.Tasks;
 namespace LeagueOFLegendsAPI.Controller
 {
@@ -57,7 +56,7 @@ namespace LeagueOFLegendsAPI.Controller
             }
         }
 
-        public async Task FiltrarCampeoes()
+        public async Task FiltrarCampeoesPorNome()
         {
             DadosCampeoes campeoes = await client.GetFromJsonAsync<DadosCampeoes>(api);
 
@@ -80,6 +79,36 @@ namespace LeagueOFLegendsAPI.Controller
                 }
             }
         }
+
+        public async Task FiltrarCampeoesPorID(int id)
+        {
+            DadosCampeoes campeoes = await client.GetFromJsonAsync<DadosCampeoes>(api);
+
+            if (campeoes?.Data != null)
+            {
+                var campeaoEncontrado = campeoes.Data.Values.FirstOrDefault(c => c.Id == id.ToString());
+
+                if (campeaoEncontrado != null)
+                {
+                    Console.WriteLine($"Key: {campeaoEncontrado.Id}");
+                    Console.WriteLine($"Nome: {campeaoEncontrado.Name}");
+                    Console.WriteLine($"Título: {campeaoEncontrado.Title.ToUpper()}");
+                    Console.WriteLine($"História: {campeaoEncontrado.Historia}");
+                    Console.WriteLine($"Vida: {campeaoEncontrado.Stats.Hp}");
+                    Console.WriteLine($"Armadura: {campeaoEncontrado.Stats.Armor}");
+                    Console.WriteLine(new string('-', 40));
+                }
+                else
+                {
+                    Console.WriteLine("Nenhum campeão encontrado com o ID fornecido.");
+                }
+            }
+            else
+            {
+                Console.WriteLine("Não foi possível obter os dados dos campeões.");
+            }
+        }
+
 
         public async Task OrdenarCampeoesAscendente()
         {
